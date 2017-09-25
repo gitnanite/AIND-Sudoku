@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: For the naked twins problems constraint propagation is used by identifying the peers that the naked twins have in common, either the same row, column, square or diagonal(in the diagonal sudoku). Within these common peers the two digits that are shared by the naked twins are removed. This reduces the number of possible digits remaining for each unsolved box among the shared peers of the naked twins.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: For the diagonal sudoku the solution is to treat the elements of the diagonals as additional peers and applying the same contraints that are applied to squares, colums and rows to diagonals. This can be done, once the boxes that are part of the diagonals are identified.
 
 ### Install
 
